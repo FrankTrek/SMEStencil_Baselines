@@ -1,5 +1,7 @@
 # SMEStencil_Baselines
 
+This repository is intended **only** for reproducibility studies. Any other use of the code requires permission from the authors of the paper *“SMEStencil: Optimizing High-order Stencils on ARM Multicore using SME Unit”*.
+
 ## Repo Structure
 
 - sve_brick_1642/:  corresponding to "highly optimized SIMD version" baselines, in single precision and brick layout of (16, 4, 2)
