@@ -37,8 +37,8 @@ first enter test_script/ directory, then use python to run templateGen.py
 
 ```bash 
 python3 templateGen.py
-		--input_layout brick
-		--output_layout brick
+		--input_layout brick #if naive version, use grid
+		--output_layout brick #if naive version, use grid
 		--function <your kernel>
 		--radius <stencil radius of kernel>
 		--tile_size <your tile size>
